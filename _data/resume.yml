@@ -53,7 +53,7 @@ work:
       **·** Opened and maintained gateways for annonymous operations abroad<br>
       **·** Setup tens of servers - Order, Setup, Operation, Burn<br>
       **·** Bitcoin<br>
-      **·** Openvpn Chaining<br>
+      **·** Openvpn Chaining
       
   - company: "Rayzone"
     position: "Team Leader and Developer"
@@ -61,9 +61,9 @@ work:
     startDate: "2014-07-04"
     endDate: "2015-10-01"
     summary: >
-      **·** Designed and built an intelligence-based dashboard with novel features. Fullstack
-      **·** Lead team of 3 junior developers and 1 Senior Developer
-      **·** Entire System Architecture and Project Management
+      **·** Designed and built an intelligence-based dashboard with novel features. Fullstack<br>
+      **·** Lead team of 3 junior developers and 1 Senior Developer<br>
+      **·** Entire System Architecture and Project Management<br>
       **·** Graph Analitics
       
   - company: "Rayzone"
@@ -72,9 +72,9 @@ work:
     startDate: "2012-08-04"
     endDate: "2013-2-01"
     summary: >
-      **·** Assisted developing both the back/front end of the platform, & social campaign operations.
-      **·** First touch with back and front end
-      **·** Multiple account and content handleing
+      **·** Assisted developing both the back/front end of the platform, & social campaign operations.<br>
+      **·** First touch with back and front end <br>
+      **·** Multiple account and content handleing <br>
 education:
   - institution: "Google"
     area: "Computer Science"
