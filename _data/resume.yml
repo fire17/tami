@@ -20,8 +20,8 @@ basics:
 
   location:
     #address: ""
-    postalCode: "4691000"
-    #region: "Merkaz"
+    #postalCode: "4691000"
+    region: "Merkaz"
     city: "Arsuf Kedem"
     countryCode: "IL"
   profiles:
