@@ -105,41 +105,52 @@ skills:
       - "Global Infustructure Design"
       - "Feature and Property Characterization"
       - "UX"
-  - name: "PowerUser & MISC"
-    level: "Advanced"
-    keywords:
-      - "automation"
-      - "scripting"
   - name: "App Development"
     level: "Professional"
     keywords:
       - "Dev & Environments: linux, mac, windows"
       - "Mobile Dev: android, ios, watchOs"
+  - name: "Web Development"
+    level: "full-professional-proficiency"
+    keywords:
+      - "jekyll"
+      - "vue (soon)"
+      - "serverless"
+      - "angular"
+      - "node"
+      - "github-pages"
+      - "wix"
+      - "wordpress"
+      - "serverless"
+      - "dns"
+  - name: "Machine Learning"
+    level: "full-professional-proficiency"
+    keywords:
+      - "Pytorch, TF, CUDA"
+      - "Building"
+      - "Infering"
+      - "CV"
+      - "Pattern Recognition (upcoming)"
+  - name: "Networking"
+    level: "Advanced"
+    keywords:
+      - "websockets"
+      - "tcpip"
+      - "udp"
+      - "rtsp"
+      - "ssh"
+      - "ftp"
+      - "ssl"
+      - "sysadmin"
+      - "wix"
+      - "wordpress"
+      - "github-pages"
   - name: "PowerUser & MISC"
     level: "Advanced"
     keywords:
       - "automation"
       - "scripting"
-  - name: "Networking"
-    level: "Advanced"
-    keywords:
-      - "Protocols: 
-      - "websockets"
-      - "tcpip"
-      - "udp"
-      - "ssh"
-      - "ftp"
-      - "ssl"
-      - "sysadmin"
-      - "Editors: wix, wordpress, github-pages"
-  - name: "Machine Learning"
-    level: "full-professional-proficiency"
-    keywords:
-      - Pytorch, TF, CUDA
-      - Build
-      - Infering
-      - CV
-      - Pattern Recognition    
+  
    
 tools:
   - language: "**∞** (google)"
