@@ -43,6 +43,41 @@ work:
     highlights:
       - Responsible for architecting, implementing and testing the core technology of the company, throught all our various apps.
       - TechStars Alumni - raised 120k pre-seed
+   
+  - company: "[unnamed]"
+    position: "Infustructure & Operator"
+    #website: "https://magico.ai/"
+    startDate: "2015-10-17"
+    endDate: "2016-04-17"
+    summary: >
+      - Opened and maintained gateways for annonymous operations abroad
+    highlights:
+      - Setup tens of servers - Order, Setup, Operation, Burn
+      - Bitcoin
+      - Openvpn Chaining
+      
+  - company: "Rayzone"
+    position: "Team Leader and Developer"
+    #website: "https://magico.ai/"
+    startDate: "2014-07-04"
+    endDate: "2015-10-01"
+    summary: >
+      - Designed and built an intelligence-based dashboard with novel features. Fullstack
+    highlights:
+      - Lead team of 3 junior developers and 1 Senior Developer
+      - Entire System Architecture and Project Management
+      - Graph Analitics
+      
+  - company: "Rayzone"
+    position: "Junior Developer and Operator"
+    #website: "https://magico.ai/"
+    startDate: "2012-08-04"
+    endDate: "2013-2-01"
+    summary: >
+      - Assisted developing both the back/front end of the platform, & social campaign operations.
+    highlights:
+      - First touch with back and front end
+      - Multiple account and content handleing
 education:
   - institution: "Google"
     area: "Computer Science"
