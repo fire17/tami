@@ -120,19 +120,6 @@ skills:
     keywords:
       - "automation"
       - "scripting"
-  - name: "Web Development"
-    level: "full-professional-proficiency"
-    keywords:
-      - "jekyll"
-      - "vue (soon)"
-      - "serverless"
-      - "angular"
-      - "node"
-      - "github-pages"
-      - "wix
-      - "wordpress
-      - "serverless
-      - "dns"
   - name: "Networking"
     level: "Advanced"
     keywords:
@@ -144,7 +131,6 @@ skills:
       - "ftp"
       - "ssl"
       - "sysadmin"
-      
       - "Editors: wix, wordpress, github-pages"
   - name: "Machine Learning"
     level: "full-professional-proficiency"
