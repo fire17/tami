@@ -4,6 +4,11 @@ title: Résumé
 hide_description: true
 menu: true
 order: 5
+right_column:
+ - skills
+ - languages
+ - offers
+ - interests
 left_column:
  - work
  - education
@@ -11,9 +16,4 @@ left_column:
 # - awards
 # - publications
 # - references
-right_column:
- - skills
- - languages
- - offers
- - interests
 ---
