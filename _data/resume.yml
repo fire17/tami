@@ -46,7 +46,7 @@ work:
    
   - company: "[unnamed]"
     position: "Infustructure & Operator"
-    #website: "https://magico.ai/"
+    website: "https://pbs.twimg.com/profile_images/1058023319427964930/XrKTTzn5.jpg"
     startDate: "2015-10-17"
     endDate: "2016-04-17"
     summary: >
@@ -58,7 +58,7 @@ work:
       
   - company: "Rayzone"
     position: "Team Leader and Developer"
-    #website: "https://magico.ai/"
+    website: "https://rayzone.com/"
     startDate: "2014-07-04"
     endDate: "2015-10-01"
     summary: >
@@ -70,7 +70,7 @@ work:
       
   - company: "Rayzone"
     position: "Junior Developer and Operator"
-    #website: "https://magico.ai/"
+    website: "https://rayzone.com/"
     startDate: "2012-08-04"
     endDate: "2013-2-01"
     summary: >
