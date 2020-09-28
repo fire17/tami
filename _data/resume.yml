@@ -61,10 +61,10 @@ work:
     startDate: "2014-07-04"
     endDate: "2015-10-01"
     highlights: >
-      **•** Designed and built an intelligence-based dashboard with novel features. Fullstack<br>
-      **•** Lead team of 3 junior developers and 1 Senior Developer<br>
-      **•** Entire System Architecture and Project Management<br>
-      **•** Graph Analitics
+      **·** Designed and built an intelligence-based dashboard with novel features. Fullstack<br>
+      **·** Lead team of 3 junior developers and 1 Senior Developer<br>
+      **·** Entire System Architecture and Project Management<br>
+      **·** Graph Analitics
       
   - company: "Rayzone"
     position: "Junior Developer and Operator"
@@ -72,9 +72,10 @@ work:
     startDate: "2012-08-04"
     endDate: "2013-2-01"
     highlights: >
-      **•** Assisted developing both the back/front end of the platform, & social campaign operations.<br>
-      **•** First touch with back and front end <br>
-      **•** Multiple account and content handleing <br>
+      **·** Assisted developing both the back/front end of the platform, & social campaign operations.<br>
+      **·** First touch with back and front end <br>
+      **·** Multiple account and content handleing <br>
+      
 education:
   - institution: "Google"
     area: "Computer Science"
@@ -112,53 +113,89 @@ skills:
   - name: "App Development"
     level: "Professional"
     keywords:
-      - "PC/Android/Apple"
+      - "Dev & Environments: linux, mac, windows"
+      - "Mobile Dev: android, ios, watchOs"
+      
   - name: "Web Development"
     level: "Full-professional-proficiency"
     keywords:
-      - "HTML/MD"
-      - "Jekyll"
-      - "Frameworks: angular, node, vue (soon)"
-      - "Editors: wix, wordpress, github-pages"
+      - "jekyll"
+      - "vue (soon)"
+      - "serverless"
+      - "angular"
+      - "node"
+      - "github-pages"
+      - "wix
+      - "wordpress
+      - "serverless
+      - "dns"
   - name: "Networking"
     level: "Advanced"
     keywords:
-      - "Protocols: ,,,"
-      - "Tools: "
-      - "Understanding: angular, node , "
+      - "Protocols: 
+      - "websockets"
+      - "tcpip"
+      - "udp"
+      - "ssh"
+      - "ftp"
+      - "ssl"
+      - "sysadmin"
+      
       - "Editors: wix, wordpress, github-pages"
-  - name: "PowerUser"
+  - name: "Machine Learning"
     level: "Full-professional-proficiency"
     keywords:
-      - "HTML/MD"
-      - "Jekyll"
-      - "Frameworks: angular, node , "
-      - "Editors: wix, wordpress, github-pages"
-   - name: "MISC"
+      - Pytorch, TF, CUDA
+      - Build
+      - Infering
+      - CV
+      - Pattern Recognition
+      
+   - name: "PowerUser & MISC"
     level: "Advanced"
     keywords:
-      - "HTML/MD"
-      - "Jekyll"
-      - "Frameworks: angular, node , "
-      - "Editors: wix, wordpress, github-pages"
-languages:
+      - "automation"
+      - "scripting"
+
+Tools:
+  - language: "**∞** (google)"
+    fluency: "Expert"
+  
   - language: "Python"
     fluency: "full-professional-proficiency"
-  - language: "Swift"
-    fluency: "full-professional-proficiency"
-  - language: "Java"
-    fluency: "full-professional-proficiency"
+      
+languages:
+  - language: "**∞** (google)"
+    fluency: "Expert"
+  
   - language: "Python"
     fluency: "full-professional-proficiency"
     
+  - language: "FrontEnd: markdown/scss/js"
+    fluency: "limited-working-proficiency"
+    
+  - language: "Swift"
+    fluency: "full-professional-proficiency"
+    
+  - language: "Java"
+    fluency: "full-professional-proficiency"
+    
+  - language: "bash/shell"
+    fluency: "Advanced"
+    
   
-  - language: "C++"
-    fluency: "professional working proficiency"
-  - language: "Javascript"
-    fluency: "elementary proficiency"
-  # - language: "Assembly"
-   # fluency: "limited-working-proficiency"
 interests:
+  - name: "Cyber-Security"
+    keywords:
+      - "Physical Security"
+      - "Close Access Technology"
+  - name: "Internet of Things"
+    keywords:
+      - "Wireless Embeded Technology"
+      - "4G-LTE"
+      - "5G"
+      
+Upcoming:
   - name: "Cyber-Security"
     keywords:
       - "Physical Security"
