@@ -33,27 +33,31 @@ basics:
 #      url: "https://www.linkedin.com/in/shazaibahmed0273"
 work:
   - company: "Magico"
-    position: "Chief Techonology Officer"
+    position: "Founder & CTO"
     website: "https://magico.ai/"
     startDate: "2018-07-04"
     endDate: "2020-05-01"
     summary: >
-      At Magico we've built special gesture-based apps to enable users to interact with their digital surrounding using common smartwatches.
-      Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, controll your tv without a remote
+      - At Magico we've built special gesture-based apps to enable users to interact with their digital surrounding using common smartwatches.
+      - Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, controll your tv without a remote
     highlights:
-      - "Responsible for architecting, implementing and testing the core technology of the company, throught all the various apps.
-     # - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
+      - Responsible for architecting, implementing and testing the core technology of the company, throught all our various apps.
+      - Techstarts Alumni - raised 120k pre-seed
 education:
-  - institution: "National University of Computer & Emerging Sciences (FAST) - Karachi"
+  - institution: "Google"
     area: "Computer Science"
-    studyType: "Bachelor"
-    startDate: "2019-07-01"
-   # endDate: "2023-05-01"
-  - institution: "Govt. Degree Science & Commerce College, Gulshan-e-Iqbal, Block-7"
-    area: "Pre-Engineering"
-    studyType: "FSc"
-    startDate: "2018-06-01"
-    endDate: "2019-4-01"
+    studyType: "Self-Taught"
+    startDate: "1999-10-1"
+  - institution: "8200 Intelligence, IDF"
+    area: "Computer Science"
+    studyType: "MMS - Architectual Design for Signal-Intelligence"
+    startDate: "2013-02-01"
+    endDate: "2014-05-01"
+  - institution: "Walter Johnson High School, Maryland, USA"
+    area: "Computer Science"
+    studyType: "First introduction to code"
+    startDate: "2008-09-01"
+    endDate: "2009-7-01"
 # awards:
  # - title: "Startup School"
    # date: "2018-09-01"
