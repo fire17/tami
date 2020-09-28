@@ -157,7 +157,7 @@ skills:
       - "automation"
       - "scripting"
 
-Tools:
+tools:
   - language: "**∞** (google)"
     fluency: "Expert"
   
@@ -195,7 +195,7 @@ interests:
       - "4G-LTE"
       - "5G"
       
-Upcoming:
+upcoming:
   - name: "Cyber-Security"
     keywords:
       - "Physical Security"
