@@ -111,7 +111,7 @@ skills:
       - "Dev & Environments: linux, mac, windows"
       - "Mobile Dev: android, ios, watchOs"
   - name: "Web Development"
-    level: "full-professional-proficiency"
+    level: "Advanced"
     keywords:
       - "jekyll"
       - "vue (soon)"
@@ -132,7 +132,7 @@ skills:
       - "CV"
       - "Pattern Recognition (upcoming)"
   - name: "Networking"
-    level: "Advanced"
+    level: "Intermediate"
     keywords:
       - "websockets"
       - "tcpip"
@@ -159,7 +159,7 @@ tools:
     fluency: "full-professional-proficiency"
 languages:
   - language: "∞ (google)"
-    level: "Expert"
+    fluency: "professional"
   - language: "Python"
     fluency: "full-professional-proficiency"
   - language: "FrontEnd: markdown/scss/js"
@@ -169,7 +169,7 @@ languages:
   - language: "Java"
     fluency: "full-professional-proficiency"
   - language: "bash/shell"
-    fluency: "Advanced"  
+    fluency: "advanced"  
 interests:
   - name: "Cyber-Security"
     keywords:
