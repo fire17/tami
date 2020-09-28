@@ -8,11 +8,14 @@ right_column:
  - skills
  - languages
  - offers
+ - tools
  - interests
 left_column:
+ - upcoming
  - work
  - education
  - volunteer
+ - projects
 # - awards
 # - publications
 # - references
