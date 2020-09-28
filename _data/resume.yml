@@ -145,7 +145,7 @@ skills:
       - "wix"
       - "wordpress"
       - "github-pages"
-  - name: "PowerUser & MISC"
+  - name: "MISC"
     level: "Advanced"
     keywords:
       - "automation"
@@ -153,13 +153,13 @@ skills:
   
    
 tools:
-  - language: "**∞** (google)"
-    fluency: "Expert"
+  - language: "∞ (google)"
+    fluency: Expert
   - language: "Python"
     fluency: "full-professional-proficiency"
 languages:
-  - language: "**∞** (google)"
-    fluency: "Expert"
+  - language: "∞ (google)"
+    level: "Expert"
   - language: "Python"
     fluency: "full-professional-proficiency"
   - language: "FrontEnd: markdown/scss/js"
