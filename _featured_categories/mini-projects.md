@@ -1,6 +1,6 @@
 ---
 layout: grid
-title: Mini-Projects
+title: Mini-Projects!!!
 slug: mini-projects
 menu: true
 order: 3

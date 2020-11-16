@@ -41,7 +41,7 @@ work:
       - At Magico we've built special gesture-based apps to enable users to interact with their digital surrounding using common smartwatches.
       Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, controll your tv without a remote
     highlights:
-      - Responsible for architecting, implementing and testing the core technology of the company, throught all our various apps.
+      - Responsible for designing, implementing and testing the core technology of the company, throught all our various apps.
       - TechStars Alumni - raised 120k pre-seed
   - company: "[unnamed]"
     position: "Infustructurte & Operator"
@@ -50,7 +50,7 @@ work:
     endDate: "2016-04-17"
     summary: >
       **·** Opened and maintained gateways for annonymous operations abroad<br>
-      **·** Setup tens of servers - Order, Setup, Operation, Burn<br>
+      **·** Lab Setup, multi-servers Order, Setup, Operation, Burn<br>
       **·** Bitcoin<br>
       **·** Openvpn Chaining
   - company: "Rayzone"
@@ -103,16 +103,26 @@ skills:
     level: "Expert"
     keywords:
       - "Global Infustructure Design"
-      - "Feature and Property Characterization"
       - "UX"
-  - name: "App Development"
+      - "Feature and Property Characterization"
+      - "Generalization"
+      - "Security"
+  - name: "App Development Platforms"
     level: "Professional"
     keywords:
-      - "Dev & Environments: linux, mac, windows"
-      - "Mobile Dev: android, ios, watchOs"
+      - "linux"
+      - "mac"
+      - "windows"
+      - "android"
+      - "ios"
+      - "watchOs"
+      - "wearables"
   - name: "Web Development"
-    level: "Advanced"
+    level: "2-3"
     keywords:
+      - "html"
+      - "css"
+      - "javascript"
       - "jekyll"
       - "vue (soon)"
       - "serverless"
@@ -124,14 +134,16 @@ skills:
       - "serverless"
       - "dns"
   - name: "Machine Learning"
-    level: "full-professional-proficiency"
+    level: "2-3"
     keywords:
-      - "Pytorch, TF, CUDA"
+      - "pytorch"
+      - "tensorflow"
+      - "cuda related"
       - "Building"
       - "Infering"
-      - "CV"
+      - "computer vision"
       - "Pattern Recognition (upcoming)"
-  - name: "Networking"
+  - name: "MISC"
     level: "Intermediate"
     keywords:
       - "websockets"
@@ -145,31 +157,26 @@ skills:
       - "wix"
       - "wordpress"
       - "github-pages"
-  - name: "MISC"
-    level: "Advanced"
-    keywords:
       - "automation"
       - "scripting"
-  
-   
+
+
 tools:
   - language: "∞ (google)"
-    fluency: Expert
-  - language: "Python"
+    fluency: "5"
+  - language: "Python    "
     fluency: "full-professional-proficiency"
 languages:
-  - language: "∞ (google)"
-    fluency: "professional"
-  - language: "Python"
-    fluency: "full-professional-proficiency"
-  - language: "FrontEnd: markdown/scss/js"
-    fluency: "limited-working-proficiency"
-  - language: "Swift"
-    fluency: "full-professional-proficiency"
-  - language: "Java"
-    fluency: "full-professional-proficiency"
+  - language: "Python    "
+    fluency: "4-5"
+  - language: "Javascript      "
+    fluency: "3-5"
+  - language: "Swift     "
+    fluency: "4-5"
+  - language: "Java      "
+    fluency: "4-5"
   - language: "bash/shell"
-    fluency: "advanced"  
+    fluency: "4-5"
 interests:
   - name: "Cyber-Security"
     keywords:
@@ -181,7 +188,7 @@ interests:
       - "4G-LTE"
       - "5G"
 upcoming:
-  - name: "Cyber-Security"
+  - name: "Dev for Devs"
     keywords:
       - "Physical Security"
       - "Close Access Technology"
@@ -189,7 +196,7 @@ upcoming:
     keywords:
       - "Wireless Embeded Technology"
       - "4G-LTE"
-      - "5G"    
+      - "5G"
 #1.1 ILR Level 0 – No proficiency.
 #1.2 ILR Level 1 – Elementary proficiency.
 #1.3 ILR Level 2 – Limited working proficiency.

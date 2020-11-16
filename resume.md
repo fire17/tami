@@ -10,6 +10,7 @@ right_column:
  - offers
  - tools
  - interests
+ - upcoming
 left_column:
  - upcoming
  - work

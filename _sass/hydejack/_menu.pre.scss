@@ -56,7 +56,7 @@ $navbar-height: 5rem;
       height: $navbar-height;
       left: $shadow-padding;
       margin: auto;
-      box-shadow: 0 0 2rem rgba(0,0,0,0.25);
+      box-shadow: 0 0 2rem rgba(0,0,0.5,0.25);
       z-index: -1;
     }
     // >>>
@@ -118,7 +118,7 @@ $navbar-height: 5rem;
 a.nav-btn, button.nav-btn {
   cursor: pointer;
   &:hover, &:focus {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
+    background-image: linear-gradient(90deg, rgba(0, 0, .5, .5), rgba(0, 0, 0, 0.05));
   }
 }
 

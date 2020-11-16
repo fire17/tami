@@ -121,6 +121,7 @@ resume:
   skills:              Skills
   level:               Level
   interests:           Interests
+  upcoming:            Upcoming
   keywords:            Keywords
   icons:
     fallback:          icon-link
@@ -137,3 +138,4 @@ resume:
     languages:         icon-bubbles
     skills:            icon-wrench
     interests:         icon-heart
+    upcoming:          icon-heart
