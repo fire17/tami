@@ -20,3 +20,5 @@ accent_image:
   background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)'
   overlay:    true
 ---
+
+Dani-lator is now live! check it out at <a href="http://danilator.wholesome.garden" class="internal"><strong>Danilator.Wholesome.Garden</strong></a>
