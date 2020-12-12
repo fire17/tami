@@ -3,22 +3,23 @@ cover: true
 image: /assets/img/hydejack-8.png
 title: "Portfolio"
 hide_description: false
-description: "I can see that you've walked thousands of miles just to reach this website, but that’s just my homepage. Have fun…"
+description: "<strong>Hint:</strong>  We've added dark mode<strong><font color='ffffff' size='3'>  ALRIGHT :D</font></strong>"
 ---
 
-## Hi, I am Shahzaib!!! 🎉
+## Hi, I am Tami :D 🎉
 
-I created this personal website to keep track of my projects, talk about my experience as an Engineer, and give guidance to anyone striving for some knowledge within my expertise. While, just trying to tame the ocean of endless knowledge & to stand out in the crowd one day (Inshaallah).
+Thank you for finding this place :) 
+I've launched this site to showcase and organize personal projects, share my experience and past work, and collaborate more to make good things happen.
 
+You're welcome to contact regarding any matter :)
 
+## Feel Free to Explore (still in the making)
 
-## Feel Free to Explore
-
-* [Blog]{:.heading.flip-title} --- Just a glimpse into my engineering career.
-* [Projects]{:.heading.flip-title} ---  Overview of my assorted end product ideas.
-* [Mini-Projects]{:.heading.flip-title} ---  My spare time practice projects.
-* [Certifications]{:.heading.flip-title} --- A few achievements, but rare ones.
-* [Resume]{:.heading.flip-title} --- Summarized overview for my amazing experiences.
+<!-- * [Blog]{:.heading.flip-title} --- Just a glimpse into my engineering career. -->
+* [Projects]{:.heading.flip-title} ---  Overview of my past, present and upcoming projects.
+<!-- * [Mini-Projects]{:.heading.flip-title} ---  My spare time practice projects. -->
+<!-- * [Certifications]{:.heading.flip-title} --- A few achievements, but rare ones. -->
+* [Resume]{:.heading.flip-title} --- Summarized overview for my experiences.
 {:.related-posts.faded}
 
 [blog]: blog-posts/

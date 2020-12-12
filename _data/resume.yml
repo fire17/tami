@@ -2,21 +2,23 @@ basics:
   name: "Tami Bar"
   label: "Freelancer : Maker : Human"
   picture: "/assets/icons/icon@2x.png"
-  email: "tami@akeyo.io"
+  email: "tami@magicho.com"
   phone: "+972-54-7932000"
-  website: "https://akeyo.io/tami"
+#  website: "https://akeyo.io/tami"
 
   summary: >
-    I'm an aspiring student who seeks to learn something new every day. Currently, undergraduate at NUCES FAST-Karachi in BS(CS). <br><br>
-    My interests include Cyber-Security, Artificial Intelligence, Internet of Things, Defense, & Web Development.
-    However, the list of all my passions extends much further.<br><br>
-    My dream job is to obtain a position where I can grow well to help others around me.
+    There are many passions in my life, coding is one of those great ones that can keep me up all night, in a good way.<br><br>
+    Fullstack Unicorn Developer - Over the years i've gotten experience on various platforms, designing and writing systems and apps for pc, mobile, web &libraries. Worked on different scale products 5-50-500 <br><br>
+    Love to make things happen and will learn whatever is needed to get it done. Next up in expanding my toolbox is training ML, Devops, and better FrontEnd<br><br>
     If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br>
     I'd love to talk.<br><br>
 
-    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Resume.pdf" class="external"><strong>Resume</strong></a>
-    <br>
-    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
+
+#    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/tami/assets/Resume.pdf" class="internal"><strong>Resume</strong></a>
+#    <br>
+#    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
+#    <a data-testid="linkElement" href="https://www.techstars.com/" target="_blank" rel="noopener" class="_2yXCL"><wix-image id="img_comp-k7elbd1l" class="_1SQyl DFk41" data-image-info="{&quot;containerId&quot;:&quot;comp-k7elbd1l&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:660,&quot;height&quot;:436,&quot;uri&quot;:&quot;79ae72_10aada71cdcc46c48c171f79eeda3a43~mv2.png&quot;,&quot;name&quot;:&quot;Techstars_logo.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-src="/assets/img/Techstars_logo.webp" data-has-ssr-src=""><img alt="Techstars logo" style="width: 65px; height: 42px; object-fit: cover;" src="https://static.wixstatic.com/media/79ae72_10aada71cdcc46c48c171f79eeda3a43~mv2.png/v1/fill/w_65,h_42,al_c,q_85,usm_0.66_1.00_0.01/Techstars_logo.webp"></wix-image></a>
+
 
   location:
     #address: ""
@@ -39,12 +41,12 @@ work:
     endDate: "2020-05-01"
     summary: >
       - At Magico we've built special gesture-based apps to enable users to interact with their digital surrounding using common smartwatches.
-      Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, controll your tv without a remote
+      Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, control your tv without a remote
     highlights:
       - Responsible for designing, implementing and testing the core technology of the company, throught all our various apps.
       - TechStars Alumni - raised 120k pre-seed
   - company: "[unnamed]"
-    position: "Infustructurte & Operator"
+    position: "Infustructure & Operator"
     website: "https://pbs.twimg.com/profile_images/1058023319427964930/XrKTTzn5.jpg"
     startDate: "2015-10-17"
     endDate: "2016-04-17"
@@ -73,7 +75,7 @@ work:
       **·** First touch with back and front end <br>
       **·** Multiple account and content handleing <br>
 education:
-  - institution: "Google"
+  - institution: "The Internet"
     area: "Computer Science"
     studyType: "Self-Taught"
     startDate: "1999-10-1"
@@ -107,96 +109,90 @@ skills:
       - "Feature and Property Characterization"
       - "Generalization"
       - "Security"
-  - name: "App Development Platforms"
+  - name: "App Development"
     level: "Professional"
     keywords:
-      - "linux"
-      - "mac"
-      - "windows"
-      - "android"
-      - "ios"
+      - "iOS"
       - "watchOs"
-      - "wearables"
-  - name: "Web Development"
-    level: "2-3"
-    keywords:
-      - "html"
-      - "css"
-      - "javascript"
-      - "jekyll"
-      - "vue (soon)"
-      - "serverless"
-      - "angular"
-      - "node"
-      - "github-pages"
-      - "wix"
-      - "wordpress"
-      - "serverless"
-      - "dns"
+      - "Android"
+      - "Web"
+      - "Serverless"
+      - "Linux"
+      - "Mac"
+      - "Windows"
+      - "Wearables"
+      - "Arduino"
   - name: "Machine Learning"
     level: "2-3"
     keywords:
-      - "pytorch"
-      - "tensorflow"
-      - "cuda related"
-      - "Building"
-      - "Infering"
-      - "computer vision"
+      - "Building & Infering (using models), pytorch, TF"
+      - "Computer Vision"
+      - "YOLO"
+      - "2D-3D Pose Estimation"
       - "Pattern Recognition (upcoming)"
   - name: "MISC"
     level: "Intermediate"
     keywords:
-      - "websockets"
-      - "tcpip"
-      - "udp"
-      - "rtsp"
-      - "ssh"
-      - "ftp"
-      - "ssl"
-      - "sysadmin"
-      - "wix"
-      - "wordpress"
-      - "github-pages"
-      - "automation"
-      - "scripting"
+      - "IMU"
+      - "BLE"
+      - "TCP"
+      - "UDP"
+      - "RTSP"
+      - "Websockets"
+      - "SSH"
+      - "SysAdmin"
+      - "Wix"
+      - "Wordpress"
+      - "Github-Pages"
+      - "Heroku"
+      - "Automation"
+      - "Scripting"
+      - "Agile"
+      - "Lean"
 
-
-tools:
-  - language: "∞ (google)"
-    fluency: "5"
-  - language: "Python    "
-    fluency: "full-professional-proficiency"
 languages:
   - language: "Python    "
     fluency: "4-5"
-  - language: "Javascript      "
+  - language: "Swift      "
     fluency: "3-5"
-  - language: "Swift     "
-    fluency: "4-5"
-  - language: "Java      "
-    fluency: "4-5"
+  - language: "Java     "
+    fluency: "3-5"
+  - language: "HTML/CSS/JS      "
+    fluency: "2-5"
+  - language: "C++      "
+    fluency: "2-5"
   - language: "bash/shell"
     fluency: "4-5"
 interests:
-  - name: "Cyber-Security"
+  - name: "Professional Life"
     keywords:
-      - "Physical Security"
-      - "Close Access Technology"
-  - name: "Internet of Things"
+      - "Blitz Coding (sprints)"
+      - "Dev for Devs"
+      - "High-Level Solutions"
+      - "Machine Learning"
+      - "IoT"
+  - name: "Personal Life"
     keywords:
-      - "Wireless Embeded Technology"
-      - "4G-LTE"
-      - "5G"
+      - "Jammin'"
+      - "Didgeridoo"
+      - "Guitar"
+      - "Offroad Driving"
+      - "Ski"
+      - "Craft"
+
 upcoming:
-  - name: "Dev for Devs"
+  - name: "Projects"
     keywords:
-      - "Physical Security"
-      - "Close Access Technology"
-  - name: "Internet of Things"
+      - "WhatsappReminder"
+      - "Danilator International"
+      - "GlobalData (xObject & subs)"
+      - "Nova (ML)"
+  - name: "Learn"
     keywords:
-      - "Wireless Embeded Technology"
-      - "4G-LTE"
-      - "5G"
+      - "TensorFlow Light Micro JS"
+      - "Auto Website Deploy"
+      - "Svelt and or Vue"
+      - ""
 #1.1 ILR Level 0 – No proficiency.
 #1.2 ILR Level 1 – Elementary proficiency.
 #1.3 ILR Level 2 – Limited working proficiency.

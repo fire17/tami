@@ -31,12 +31,13 @@ description:            "👉 💡"
 
 # A shorter description for the sidebar.
 menu:
+
   - title: Projects
     url:   /projects/
-  - title: Resume
+  - title: Résumé
     url:   /resume/
   - title: Contact
-    url:   /about/
+    url:   /contact/
 #menu:
 #  - tagline:             "Example"
 #  - tagline:             "Example2"

@@ -5,8 +5,8 @@ hide_description: true
 menu: true
 order: 5
 right_column:
- - skills
  - languages
+ - skills
  - offers
  - tools
  - interests
