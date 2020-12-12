@@ -1,14 +1,14 @@
 ---
 cover: true
 image: /assets/img/hydejack-8.png
-title: "Portfolio"
+title: "💚 💛 💜"
 hide_description: false
 description: "<strong>Hint:</strong>  We've added dark mode<strong><font color='ffffff' size='3'>  ALRIGHT :D</font></strong>"
 ---
 
 ## Hi, I am Tami :D 🎉
 
-Thank you for finding this place :) 
+Thank you for finding this place :)
 I've launched this site to showcase and organize personal projects, share my experience and past work, and collaborate more to make good things happen.
 
 You're welcome to contact regarding any matter :)

@@ -1,1 +1,1 @@
-importScripts("/tami/assets/js/sw.js?t=2020-12-12T19:19:48+02:00");
+importScripts("/tami/assets/js/sw.js?t=2020-12-12T19:50:53+02:00");
