@@ -1,116 +1,126 @@
 basics:
-  name: "Tami Bar"
+  name:          "Tami Bar"
   label: "Freelancer : Maker : Human"
-  picture: "/assets/icons/icon@2x.png"
-  email: "tami@magicho.com"
-  phone: "+972-54-7932000"
-#  website: "https://akeyo.io/tami"
+  picture:       "/assets/icons/icon@2x.png"
+  email:         "tami@magicho.com"
+  phone:         "+972-54-7932000"
+  whatsapp:         "+972-54-7932000"
+#  website:      "https://akeyo.io/tami"
 
-  summary: >
-    There are many passions in my life, coding is one of those great ones that can keep me up all night, in a good way.<br><br>
-    Fullstack Unicorn Developer - Over the years i've gotten experience on various platforms, designing and writing systems and apps for pc, mobile, web &libraries. Worked on different scale products 5-50-500 <br><br>
-    Love to make things happen and will learn whatever is needed to get it done. Next up in expanding my toolbox is training ML, Devops, and better FrontEnd<br><br>
-    If you're interested in something within my skill-set, or would like to discuss something tech related then, feel free to reach out.<br><br>
+  summary:       >
+    Fullstack Unicorn Developer - Over the years i've developed on various platforms, designing and writing systems and apps for pc, mobile, web &libraries. Worked on different scale products 5-50-500
+    <br><br>
+    Love to make things happen and will learn whatever is needed to get it done. Next up in expanding my toolbox is training ML, Devops, and better FrontEnd
+    <br><br>
+    If you're interested in something within my skill-set, or would like to discuss something tech related then, feel free to reach out.
+    <br><br>
     I'd love to talk.<br><br>
 
+    <bold>Looking for a position as a Senior Python Developer<bold>
 
-#    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/tami/assets/Resume.pdf" class="internal"><strong>Resume</strong></a>
+
+
+
+
+
+
+#    <i title="Download" class="icon-box-add faded"><strong>  : </strong></i><a href="/tami/assets/Resume.pdf" class="internal"><strong>Resume</strong></a>
 #    <br>
-#    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
+#    <i title="Download" class="icon-box-add faded"><strong>  : </strong></i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
 #    <a data-testid="linkElement" href="https://www.techstars.com/" target="_blank" rel="noopener" class="_2yXCL"><wix-image id="img_comp-k7elbd1l" class="_1SQyl DFk41" data-image-info="{&quot;containerId&quot;:&quot;comp-k7elbd1l&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:660,&quot;height&quot;:436,&quot;uri&quot;:&quot;79ae72_10aada71cdcc46c48c171f79eeda3a43~mv2.png&quot;,&quot;name&quot;:&quot;Techstars_logo.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-src="/assets/img/Techstars_logo.webp" data-has-ssr-src=""><img alt="Techstars logo" style="width: 65px; height: 42px; object-fit: cover;" src="https://static.wixstatic.com/media/79ae72_10aada71cdcc46c48c171f79eeda3a43~mv2.png/v1/fill/w_65,h_42,al_c,q_85,usm_0.66_1.00_0.01/Techstars_logo.webp"></wix-image></a>
 
 
   location:
-    #address: ""
+    #address:    ""
     #postalCode: "4691000"
-    region: "Merkaz"
-    city: "Arsuf Kedem"
+    region:      "Merkaz"
+    city:        "Arsuf Kedem"
     countryCode: "IL"
   profiles:
-    - network: "Github"
-      username: "Tami Bar"
-      url: "https://github.com/fire17"
-#    - network: "LinkedIn"
+    - network:   "Github"
+      username:  "Tami Bar"
+      url:       "https://github.com/fire17"
+#    - network:  "LinkedIn"
 #      username: "Tami Khan"
-#      url: "https://www.linkedin.com/in/shazaibahmed0273"
+#      url:      "https://www.linkedin.com/in/shazaibahmed0273"
 work:
-  - company: "Magico"
-    position: "Founder & CTO"
-    website: "https://magico.ai/"
-    startDate: "2018-07-04"
-    endDate: "2020-05-01"
-    summary: >
+  - company:     "Magico"
+    position:    "Founder & CTO"
+    website:     "https://magico.ai/"
+    startDate:   "2018-07-04"
+    endDate:     "2020-05-01"
+    summary:     >
       - At Magico we've built special gesture-based apps to enable users to interact with their digital surrounding using common smartwatches.
       Point to your lights to turn them on, "grab" the volume knob for far away and raise the volume, control your tv without a remote
     highlights:
       - Responsible for designing, implementing and testing the core technology of the company, throught all our various apps.
       - TechStars Alumni - raised 120k pre-seed
-  - company: "[unnamed]"
-    position: "Infustructure & Operator"
-    website: "https://pbs.twimg.com/profile_images/1058023319427964930/XrKTTzn5.jpg"
-    startDate: "2015-10-17"
-    endDate: "2016-04-17"
-    summary: >
+  - company:     "[unnamed]"
+    position:    "Infustructure & Operator"
+    website:     "https://pbs.twimg.com/profile_images/1058023319427964930/XrKTTzn5.jpg"
+    startDate:   "2015-10-17"
+    endDate:     "2016-04-17"
+    summary:     >
       **·** Opened and maintained gateways for annonymous operations abroad<br>
       **·** Lab Setup, multi-servers Order, Setup, Operation, Burn<br>
       **·** Bitcoin<br>
       **·** Openvpn Chaining
-  - company: "Rayzone"
-    position: "Team Leader and Developer"
-    website: "https://rayzone.com/"
-    startDate: "2014-07-04"
-    endDate: "2015-10-01"
-    summary: >
+  - company:     "Rayzone"
+    position:    "Team Leader and Developer"
+    website:     "https://rayzone.com/"
+    startDate:   "2014-07-04"
+    endDate:     "2015-10-01"
+    summary:     >
       **·** Designed and built an intelligence-based dashboard with novel features. Fullstack<br>
       **·** Lead team of 3 junior developers and 1 Senior Developer<br>
       **·** Entire System Architecture and Project Management<br>
       **·** Graph Analitics
-  - company: "Rayzone"
-    position: "Junior Developer and Operator"
-    website: "https://rayzone.com/"
-    startDate: "2012-08-04"
-    endDate: "2013-2-01"
-    summary: >
+  - company:     "Rayzone"
+    position:    "Junior Developer and Operator"
+    website:     "https://rayzone.com/"
+    startDate:   "2012-08-04"
+    endDate:     "2013-2-01"
+    summary:     >
       **·** Assisted developing both the back/front end of the platform, & social campaign operations.<br>
       **·** First touch with back and front end <br>
       **·** Multiple account and content handleing <br>
 education:
   - institution: "The Internet"
-    area: "Computer Science"
-    studyType: "Self-Taught"
-    startDate: "1999-10-1"
+    area:        "Computer Science"
+    studyType:   "Self-Taught"
+    startDate:   "1999-10-1"
   - institution: "8200 Intelligence, IDF"
-    area: "Computer Science"
-    studyType: "MMS - Architectual Design for Signal-Intelligence"
-    startDate: "2013-02-01"
-    endDate: "2014-05-01"
+    area:        "Computer Science"
+    studyType:   "MMS - Architectual Design for Signal-Intelligence"
+    startDate:   "2013-02-01"
+    endDate:     "2014-05-01"
   - institution: "Walter Johnson High School, Maryland, USA"
-    area: "Computer Science"
-    studyType: "First introduction to code"
-    startDate: "2008-09-01"
-    endDate: "2009-7-01"
+    area:        "Computer Science"
+    studyType:   "First introduction to code"
+    startDate:   "2008-09-01"
+    endDate:     "2009-7-01"
 # awards:
- # - title: "Startup School"
-   # date: "2018-09-01"
-   # awarder: "YCombinator"
-   # summary: "Completed YCombinator's Startup School program on how to build a successful startup."
+ # - title:      "Startup School"
+   # date:       "2018-09-01"
+   # awarder:    "YCombinator"
+   # summary:    "Completed YCombinator's Startup School program on how to build a successful startup."
 # publications:
- # - name: "How to Build In-Plants, a Mesh-Connected Soil Monitoring System"
-   # publisher: "Particle"
+ # - name:       "How to Build In-Plants, a Mesh-Connected Soil Monitoring System"
+   # publisher:  "Particle"
    # releaseDate: "2019-05-06"
-   # website: "https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/"
-   # summary: "Utilize the Internet of Things to watch over your house plants."
+   # website:    "https://blog.particle.io/2019/05/06/learn-how-to-build-in-plants-a-mesh-connected-soil-monitoring-system/"
+   # summary:    "Utilize the Internet of Things to watch over your house plants."
 skills:
-  - name: "System Architecture"
-    level: "Expert"
+  - name:        "System Architecture"
+    level:       "Expert"
     keywords:
       - "Global Infustructure Design"
       - "UX"
       - "Feature and Property Characterization"
       - "Generalization"
       - "Security"
-  - name: "App Development"
-    level: "Professional"
+  - name:        "App Development"
+    level:       "Professional"
     keywords:
       - "iOS"
       - "watchOs"
@@ -122,16 +132,16 @@ skills:
       - "Windows"
       - "Wearables"
       - "Arduino"
-  - name: "Machine Learning"
-    level: "2-3"
+  - name:        "Machine Learning"
+    level:       "2-3"
     keywords:
       - "Building & Infering (using models), pytorch, TF"
       - "Computer Vision"
       - "YOLO"
       - "2D-3D Pose Estimation"
       - "Pattern Recognition (upcoming)"
-  - name: "MISC"
-    level: "Intermediate"
+  - name:        "MISC"
+    level:       "Intermediate"
     keywords:
       - "IMU"
       - "BLE"
@@ -151,27 +161,27 @@ skills:
       - "Lean"
 
 languages:
-  - language: "Python    "
-    fluency: "4-5"
-  - language: "Swift      "
-    fluency: "3-5"
-  - language: "Java     "
-    fluency: "3-5"
-  - language: "HTML/CSS/JS      "
-    fluency: "2-5"
-  - language: "C++      "
-    fluency: "2-5"
-  - language: "bash/shell"
-    fluency: "4-5"
+  - language:    "Python    "
+    fluency:     "4-5"
+  - language:    "Swift      "
+    fluency:     "3-5"
+  - language:    "Java     "
+    fluency:     "3-5"
+  - language:    "HTML/CSS/JS      "
+    fluency:     "2-5"
+  - language:    "C++      "
+    fluency:     "2-5"
+  - language:    "bash/shell"
+    fluency:     "4-5"
 interests:
-  - name: "Professional Life"
+  - name:        "Professional Life"
     keywords:
       - "Blitz Coding (sprints)"
       - "Dev for Devs"
       - "High-Level Solutions"
       - "Machine Learning"
       - "IoT"
-  - name: "Personal Life"
+  - name:        "Personal Life"
     keywords:
       - "Jammin'"
       - "Didgeridoo"
@@ -181,13 +191,13 @@ interests:
       - "Craft"
 
 upcoming:
-  - name: "Projects"
+  - name:        "Projects"
     keywords:
       - "WhatsappReminder"
       - "Danilator International"
       - "GlobalData (xObject & subs)"
       - "Nova (ML)"
-  - name: "Learn"
+  - name:        "Learn"
     keywords:
       - "TensorFlow Light Micro JS"
       - "Auto Website Deploy"
@@ -200,7 +210,7 @@ upcoming:
 #1.5 ILR Level 4 – Full professional proficiency.
 #1.6 ILR Level 5 – Native or bilingual proficiency.
 # references:
-#   - name: "Erlich Bachman"
+#   - name:      "Erlich Bachman"
 #     reference: >
 #       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
 #       Company proved that he will be a valuable addition to any company.
