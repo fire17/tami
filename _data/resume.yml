@@ -14,7 +14,7 @@ basics:
     <br><br>
     **·** Currently looking for a part-time/student position as a Senior Python Developer - scope of 80 hrs a month, preferably from home
     <br><br>
-    If you're interested in Whatsapp-Automation - let me know and we can do some magic together 👉 💡
+    If you're interested in Whatsapp-Automation - let me know and we can do some magic together **👉 💡**
 
 
 
@@ -39,9 +39,9 @@ basics:
     - network:   "Github"
       username:  "Tami Bar"
       url:       "https://github.com/fire17"
-#    - network:  "LinkedIn"
-#      username: "Tami Khan"
-#      url:      "https://www.linkedin.com/in/shazaibahmed0273"
+   - network:  "Whatsapp"
+     username: "Whatsapp"
+     url:      "https://rebrand.ly/contact/tami"
 work:
   - company:     "Magico"
     position:    "Founder & CTO"
