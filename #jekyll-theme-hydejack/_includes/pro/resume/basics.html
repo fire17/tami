@@ -73,7 +73,8 @@
 
   {% if basics.email.size > 0 %}
     <dt class="faded">
-      <span class="{{ icons.email | default:'icon-mail2' }}" title="{{ strings.resume.email | default:'Email' }}"></span>
+      <!-- <span class="{{ icons.email | default:'icon-mail2' }}" title="{{ strings.resume.email | default:'Email' }}"></span> -->
+      <span class="{{ icons.email | default:'icon-home3 }}" title="{{ strings.resume.email | default:'Email' }}"></span>
       <span class="sr-only">{{ strings.resume.email | default:"Email" }}</span>
     </dt>
     <dd class="bold">
@@ -90,6 +91,17 @@
     <dd class="bold">
       <meta property="telephone" content="{{ basics.phone }}"/>
       <a href="tel:{{ basics.phone | replace:' ','' }}" class="external no-print-link tel p-tel">{{ basics.phone }}</a>
+    </dd>
+  {% endif %}
+
+  {% if basics.whatsapp.size > 0 %}
+    <dt class="faded">
+      <span class="{{ icons.whatsapp | default:'icon-whatsapp' }}" title="{{ strings.resume.whatsapp | default:'Whatsapp' }}"></span>
+      <span class="sr-only">{{ strings.resume.whatsapp | default:"Whatsapp" }}</span>
+    </dt>
+    <dd class="bold">
+      <meta property="whatsapp" content="{{ basics.whatsapp }}"/>
+      <a href="tel:{{ basics.whatsapp | replace:' ','' }}" class="external no-print-link url u-url">{{ basics.whatsapp }}</a>
     </dd>
   {% endif %}
 

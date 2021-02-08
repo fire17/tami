@@ -4,20 +4,15 @@ basics:
   picture:       "/assets/icons/icon@2x.png"
   email:         "tami@magicho.com"
   phone:         "+972-54-7932000"
-  whatsapp:      "+972-54-7932000"
+  whatsapp:         "https://rebrand.ly/contact/tami"
 #  website:      "https://akeyo.io/tami"
 
   summary:       >
-    Fullstack Unicorn Developer - Over the years i've developed on various platforms, designing architecture and writing systems and apps for pc, mobile, web &libraries.
+    Fullstack Unicorn Developer - Love to make things happen and will learn what is needed to get it done. Over the years I've developed on various platforms, designing architecture and writing systems and apps for pc, mobile, web &libraries. 5-50-500
     <br><br>
-    Love to make things happen and will learn what is needed to get it done. Next up in expanding my toolbox is training ML, Devops, and better FrontEnd. If you like my skill-set, or would like to discuss something, feel free to reach out. I'd love to talk.
-    <br><br>
-    **·** Currently looking for a part-time/student position as a Senior Python Developer - scope of 80 hrs a month, preferably from home
-    <br><br>
-    If you're interested in Whatsapp-Automation - let me know and we can do some magic together **👉 💡**<br>
-
-
-
+    Currently looking for a part-time/student position as a Senior Python Developer - scope of 80 hrs a month, preferably from home.
+    Also developing a Whatsapp-Automation platfrom. If that sounds interesting or you just like my skill-set please feel free to reach out 💜
+    <br>
 
 
 
@@ -39,9 +34,9 @@ basics:
     - network:   "Github"
       username:  "Tami Bar"
       url:       "https://github.com/fire17"
-   - network:  "Whatsapp"
-     username: "Whatsapp"
-     url:      "https://rebrand.ly/contact/tami"
+#    - network:  "LinkedIn"
+#      username: "Tami Khan"
+#      url:      "https://www.linkedin.com/in/shazaibahmed0273"
 work:
   - company:     "Magico"
     position:    "Founder & CTO"
@@ -190,7 +185,7 @@ interests:
       - "Craft"
 
 upcoming:
-  - name:        "Projects"
+  - name:        "Current Projects"
     keywords:
       - "WhatsappMaster"
       - "Danilator International"
