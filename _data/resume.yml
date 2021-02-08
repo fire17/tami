@@ -1,7 +1,7 @@
 basics:
   name:          "Tami Bar"
   label:         "Freelancer : Maker : Human"
-  label2:         "👉 💡"
+  label2:        "👉 💡"
   picture:       "/assets/icons/icon@2x.png"
   email:         "tami@magicho.com"
   phone:         "+972-54-7932000"
@@ -17,12 +17,6 @@ basics:
     <br><br><br>
     **·** Looking for a part-time/student position as a Senior Python Developer - scope of 80 hrs a month, preferably from home
     <br>
-
-
-
-
-
-
 
 
 #    <i title="Download" class="icon-box-add faded"><strong>  : </strong></i><a href="/tami/assets/Resume.pdf" class="internal"><strong>Resume</strong></a>

@@ -23,6 +23,7 @@ You're welcome to contact regarding any matter :)
 * [Resume]{:.heading.flip-title} --- Summarized overview for my experiences.
 {:.related-posts.faded}
 
+
 [blog]: blog-posts/
 [projects]: projects/
 [mini-projects]: mini-projects/
