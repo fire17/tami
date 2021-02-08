@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Résumé
+title: Tami's Résumé
 hide_description: true
 menu: true
 order: 5
