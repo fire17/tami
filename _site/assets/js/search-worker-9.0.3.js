@@ -47,7 +47,7 @@ async function getDocuments() {
 ///////////////////////////////////////////////////////////////////////////////
 
 importScripts('/tami/assets/js/minisearch/dist/umd/index.min.js');
-const INDEX_KEY = 'index--2021-02-08T19:49:41+02:00';
+const INDEX_KEY = 'index--2021-02-08T19:57:49+02:00';
 const storage = new StorageArea('mini-search/tami/');
 
 const OPTIONS = {
