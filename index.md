@@ -12,7 +12,7 @@ Thank you for finding this place :)
 I've launched this site to showcase and organize personal projects, share my experience and past work, and collaborate more to make good things happen.
 
 You're welcome to contact regarding any matter :)
-👉 💡
+**👉 💡**
 
 ## Feel Free to Explore (still in the making)
 
