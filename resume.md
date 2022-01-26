@@ -16,8 +16,8 @@ left_column:
  - work
  - education
  - volunteer
- - upcoming
  - projects
+# - upcoming
 # - awards
 # - publications
 # - references
