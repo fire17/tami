@@ -1,6 +1,7 @@
 ---
 layout: resume
 title: Résumé \| Tami Bar
+image: /assets/img/image.png
 hide_description: true
 menu: true
 order: 5
