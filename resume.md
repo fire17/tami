@@ -13,10 +13,10 @@ right_column:
  - interests
  - upcoming
 left_column:
- - upcoming
  - work
  - education
  - volunteer
+ - upcoming
  - projects
 # - awards
 # - publications
