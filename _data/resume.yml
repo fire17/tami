@@ -99,10 +99,13 @@ work:
       **·** First touch with back and front end <br>
       **·** Multiple account and content handleing <br>
 education:
-  - institution: "The Internet"
-    area:        "Computer Science"
-    studyType:   "Self-Taught"
-    startDate:   "1999-10-1"
+  - institution: "TechStars, Munic"
+    area:        "BSH Future Home Accelerator"
+    studyType:   "Startup Accelerator"
+    startDate:   "2020-11-1"
+  - institution: "SigmaLabs TLV"
+    studyType:   "Startup Accelerator"
+    startDate:   "2020-2-1"
   - institution: "8200 Intelligence, IDF"
     area:        "Computer Science"
     studyType:   "MMS - Architectual Design for Signal-Intelligence"
@@ -110,9 +113,13 @@ education:
     endDate:     "2014-05-01"
   - institution: "Walter Johnson High School, Maryland, USA"
     area:        "Computer Science"
-    studyType:   "First introduction to code"
+    studyType:   "First Principles Coding"
     startDate:   "2008-09-01"
     endDate:     "2009-7-01"
+  - institution: "Google & The Internet"
+    area:        "Computer Science"
+    studyType:   "Self-Taught"
+    startDate:   "1999-10-1"
 # awards:
  # - title:      "Startup School"
    # date:       "2018-09-01"
