@@ -103,6 +103,8 @@ resume:
   email:               Email
   phone:               Phone
   website:             Website
+  hh1:                 A little about myself
+  hh2:                 Tools I've Picked Up on the Way
   work:                Experience
   work_title:          <!--position--> at <!--company-->
   highlights:          Highlights
