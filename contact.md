@@ -14,7 +14,8 @@ title: Get in touch! 💜&#xFE0E;
 <br/>
 <!-- # Become an Alpha! 💜&#xFE0E; -->
 ## Thanks for reaching out :)
-#### please feel free to contact me on [**whatsapp**](//rebrand.ly/contact/tami){:target="_blank"}
+#### please feel free to contact me on [**whatsapp**](//wa.me/972547932000){:target="_blank"}
+<!-- #### please feel free to contact me on [**whatsapp**](//rebrand.ly/contact/tami){:target="_blank"} -->
 <!-- * **<a href="mailto:tami@akeyo.io" target="_blank">tami@akeyo.io</a>**<br/> -->
 #### Or come visit here in ** [**Harsuf**](//goo.gl/maps/PXiGfoYyuYSsz6ji8){:target="_blank"} **
 <br/>
@@ -23,7 +24,7 @@ title: Get in touch! 💜&#xFE0E;
 <!-- <a href='whatsapp://send?text=Text to send withe message: http://www.yoursite.com'>whatsApp</a> -->
 
 
-if you want a site like this one, send message [**here**](//rebrand.ly/contact/site){:target="_blank"}
+if you want a site like this one, send message [**here**](//wa.me/972547932000){:target="_blank"}
 <br/><br/>
 
 <!-- [Harsuf]: /Harsuf.md -->
