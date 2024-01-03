@@ -3,8 +3,8 @@ layout: project
 title: 'MagicLLight'
 date: 1 Jan 2024
 image:  
-  path: /assets/img/danilator.png
-screenshot: /assets/img/danilator.png
+  path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
+screenshot: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
 links:
   - title: Website
     url: http://MagicLLight.akeyo.io
