@@ -16,7 +16,7 @@ layout: base
   {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork" resource="#project"{% endunless %}
   >
   <header>
-    <h1 class="page-title" property="name">{{ project.title }}</h1>
+    <h1 class="page-title" property="name">{{ project.title }} 💚 </h1>
 
     <p class="post-date heading">
 
@@ -61,6 +61,16 @@ layout: base
         %}
       {% endif %}
     </div>
+
+    Sneak Peak
+    {% assign embedded = project.embedded %}
+    <div class="lead aspect-ratio sixteen-nine">
+      {% if embedded %}
+        Check it ouy
+        <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+      {% endif %}
+    </div>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}

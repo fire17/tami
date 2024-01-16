@@ -11,6 +11,7 @@ links:
   - title: Github
     url: https://github.com/fire17/ConnectCubed
 caption: Made with 💚
+embedded: https://makereal.tldraw.link/zSr2dcOjWsDotu_BZPrHb
 description: >
     MagicLLight <br>
     Give life to your llms<br>
@@ -25,7 +26,6 @@ ConnectCubed is a work in progress, please open an issue on the repo if you woul
 
 See the site?
 
-<iframe src="https://makereal.tldraw.link/zSr2dcOjWsDotu_BZPrHb" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
 
 Iframe Above?
 
