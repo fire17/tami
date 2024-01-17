@@ -7,7 +7,9 @@ layout: base
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 {% assign proj_format = site.data.strings.date_formats.project | default:"%Y" %}
 {% assign from_to_separator = strings.from_to_separator | default:strings.resume.from_to_separator | default:"–" %}
-
+<script>
+  let skipEmbedding = False;
+</script>
 <article
   id="project"
   class="page"
@@ -46,10 +48,17 @@ layout: base
         {% endfor %}
       </span>
     </p>
-
-    {% assign screenshot = project.screenshot | default:project.image %}
-    <div class="lead aspect-ratio sixteen-nine">
+    {% assign embedded = project.embedded %}  
+    {% if embedded %}
+      <div class="lead aspect-ratio sixteen-nine">
+          <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+      </div>
+      {% endif %}
+  
+      {% else % }
+      {% assign screenshot = project.screenshot | default:project.image %}
       {% if screenshot %}
+      <div class="lead aspect-ratio sixteen-nine"></div>
         {% include_cached components/hy-img.html
           img=screenshot
           sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
@@ -58,27 +67,29 @@ layout: base
           width=864
           height=486
         %}
+      </div>
       {% endif %}
-    </div>
+    
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
 
   {{ content }}
-  
+
+  {% assign embedded = project.embedded_bottom %}  
+  {% if embedded %}
   <!-- <br> -->
   <!-- Sneak Peak -->
-    {% assign embedded = project.embedded %}
     <div class="lead aspect-ratio sixteen-nine">
       <!-- Check it out -->
         <!-- <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe> -->
-      {% if embedded %}
-        Check it out
+      
+        <!-- Check it out -->
         <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
-      {% endif %}
+      
     </div>
-
+    {% endif %}
 </article>
 
 <hr class="dingbat related" />

@@ -12,6 +12,7 @@ links:
     url: https://github.com/fire17/ConnectCubed
 caption: Made with 💚
 embedded: https://ConnectCubed.akeyo.io/
+embedded_bottom: https://ConnectCubed.akeyo.io/
 description: >
     MagicLLight <br>
     Give life to your llms<br>
