@@ -13,6 +13,7 @@ links:
 caption: 3D Version of Connect4 💚
 embedded: https://ConnectCubed.akeyo.io/
 hide_screenshot: true
+scroll_embedded: no
 description: >
     Connect³ᴰ Cubed <br>
     3D Version of Connect4<br>

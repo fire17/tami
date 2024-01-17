@@ -13,6 +13,7 @@ links:
 caption: Ask any question, Make any wish 💚
 embedded: https://wish.akeyo.io/
 hide_screenshot: true
+scroll_embedded: yes
 description: >
     WishFor <br>
     Ask any question, Make any wish 💚<br>
