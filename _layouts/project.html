@@ -52,7 +52,7 @@ layout: base
     {% assign embedded = project.embedded %}  
     {% if embedded and embedded.size > 0 %}
       <div class="lead aspect-ratio sixteen-nine">
-          <iframe src="{{ embedded }}" width="100%" width="100%" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+          <iframe src="{{ embedded }}" width="100%" height="100%" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
       </div>
     {% endif %}
       
@@ -86,7 +86,8 @@ layout: base
         <!-- <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe> -->
       
         <!-- Check it out -->
-        <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+        <!-- width="600" height="400" -->
+        <iframe src="{{ embedded }}" width="100%" height="100%" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
       
     </div>
     {% endif %}

@@ -4,7 +4,6 @@ title: 'ConnectCubed'
 date: 17 Jan 2024
 image:  
   path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
-screenshot: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
 links:
   - title: Website
     url: http://ConnectCubed.akeyo.io
@@ -12,6 +11,7 @@ links:
     url: https://github.com/fire17/ConnectCubed
 caption: Made with 💚
 embedded: https://ConnectCubed.akeyo.io/
+embedded_bottom: https://ConnectCubed.akeyo.io/
 description: >
     MagicLLight <br>
     Give life to your llms<br>
@@ -22,7 +22,7 @@ accent_image:
   background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)'
   overlay:    true
 ---
-<!-- embedded_bottom: https://ConnectCubed.akeyo.io/ -->
+<!-- screenshot: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true -->
 <!-- path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true -->
 <!-- background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)' -->
 
