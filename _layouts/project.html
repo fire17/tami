@@ -54,20 +54,21 @@ layout: base
       <div class="lead aspect-ratio sixteen-nine">
           <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
       </div>
-      {% else % }
+    {% else % }
       {% assign screenshot = project.screenshot | default:project.image %}
       {% if screenshot %}
-      <div class="lead aspect-ratio sixteen-nine">
-        {% include_cached components/hy-img.html
-          img=screenshot
-          sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
-          alt=project.title
-          property="image"
-          width=864
-          height=486
-        %}
-      </div>
+        <div class="lead aspect-ratio sixteen-nine">
+          {% include_cached components/hy-img.html
+            img=screenshot
+            sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+            alt=project.title
+            property="image"
+            width=864
+            height=486
+          %}
+        </div>
       {% endif %}
+    {% endif %}
     
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
