@@ -4,6 +4,7 @@ title: 'QuickGet (qGet)'
 date: 1 Jan 2024
 image:  
   path: /assets/img/danilator.png
+screenshot: https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=800&pause=10&color=DA31F7&background=000000&center=true&vCenter=true&repeat=false&random=false&width=864&height=486&lines=QuickGet%20(qGet)
 links:
   - title: Website
     url: http://QuickGet.akeyo.io
@@ -19,7 +20,6 @@ accent_image:
   background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)'
   overlay:    true
 ---
-<!-- screenshot: /assets/img/danilator.png -->
 
 QuickGet is a work in progress, please open an issue on the repo if you would like to this project to receive more attention.
 <!-- <a href="http://danilator.wholesome.garden" class="internal"><strong>Danilator.Wholesome.Garden</strong></a> -->
