@@ -6,6 +6,12 @@ layout: page
 <div id="upload-message"></div>
 {{ content }}
 
+<!-- Template for project card -->
+<div id="project-card-template" style="display: none;">
+  <div class="column">
+    <div class="project-card"></div>
+  </div>
+</div>
 
 <script>
    document.addEventListener('DOMContentLoaded', async function() {
@@ -67,8 +73,7 @@ layout: page
     });
 
     await updateAllProjects();
-
-     async function updateAllProjects() {
+async function updateAllProjects() {
       try {
         const allProjects = await client.get('all_projects');
         const projectsArray = JSON.parse(allProjects) || [];
@@ -88,24 +93,28 @@ layout: page
         // Update the Jekyll layout
         const projectsLayout = document.querySelector('.columns');
         projectsLayout.innerHTML = ''; // Clear existing projects
+
+        const projectCardTemplate = document.getElementById('project-card-template');
+        const projectCardContainer = projectCardTemplate.cloneNode(true);
+        projectCardContainer.removeAttribute('id'); // Remove id attribute to avoid duplicates
+
         for (const project of orderedProjects) {
           const featured = page.featured || project.featured || page.big_project || project.big_project;
           const columnClass = featured ? 'column-1' : 'column-1-2';
-          projectsLayout.innerHTML += `
-            <div class="column ${columnClass}">
-              {% include_cached pro/project-card.html project=project featured=featured %}
-            </div>
+
+          const newProjectCard = projectCardContainer.cloneNode(true);
+          newProjectCard.querySelector('.project-card').innerHTML = `
+            {% include_cached pro/project-card.html project=project featured=featured %}
           `;
+
+          projectsLayout.appendChild(newProjectCard);
         }
       } catch (error) {
         console.error(error);
       }
     }
-
-
   });
 </script>
-
 
 {% assign show_collection = page.show_collection | default:"projects" %}
 {% assign ordered_projects = site[show_collection] | sort:"date" | reverse %}
