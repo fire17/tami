@@ -3,8 +3,8 @@ layout: project
 title: 'Connect³ᴰ Cubed'
 date: 17 Jan 2024
 image:  
-  path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
-screenshot: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
+  path: /assets/img/connectcubed.png
+screenshot: /assets/img/connectcubed.png
 links:
   - title: Website
     url: http://ConnectCubed.akeyo.io
@@ -24,6 +24,7 @@ accent_image:
   background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)'
   overlay:    true
 ---
+
 <!-- path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true -->
 <!-- background: 'linear-gradient(to bottom,#00AA00 0%,#AAAA66 25%,#BB00BB 50%,#3c929e 70%,#ffffff 100%)' -->
 <!-- embedded: https://ConnectCubed.akeyo.io/ -->

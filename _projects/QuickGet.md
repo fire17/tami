@@ -4,7 +4,7 @@ title: 'QuickGet (qGet)'
 date: 1 Jan 2024
 image:  
   path: /assets/img/danilator.png
-screenshot: https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=800&pause=10&color=DA31F7&background=000000&center=true&vCenter=true&repeat=false&random=false&width=864&height=486&lines=QuickGet%20(qGet)
+screenshot: https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=800&pause=10&color=1231F7&background=000000&center=true&vCenter=true&repeat=false&random=false&width=864&height=486&lines=QuickGet%20(qGet) (TBD)
 links:
   - title: Website
     url: http://QuickGet.akeyo.io

@@ -4,7 +4,7 @@ title: 'DevComs'
 date: 1 Jan 2024
 image:  
   path: /assets/img/danilator.png
-screenshot: /assets/img/danilator.png
+screenshot: https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=800&pause=1000&color=F21313&background=000000&center=true&vCenter=true&repeat=false&random=false&width=864&height=486&lines=DevComs%20(TBD)
 links:
   - title: Website
     url: http://DevComs.akeyo.io

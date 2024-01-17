@@ -4,7 +4,8 @@ title: 'xo'
 date: 1 Jan 2021
 image:  
   path: /assets/img/danilator.png
-screenshot: /assets/img/danilator.png
+screenshot: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
+screenshot: https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=800&pause=1000&color=F2F713&background=000000&center=true&vCenter=true&repeat=false&random=false&width=864&height=486&lines=xo
 links:
   - title: Website
     url: http://xo.akeyo.io
