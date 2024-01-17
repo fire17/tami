@@ -4,7 +4,7 @@ title: 'WishFor'
 date: 17 Jan 2024
 image:  
   path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
-screenshot: https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=1&pause=1&color=DA31F7&background=000000&multiline=true&repeat=false&random=false&width=240&height=80&lines=WholesomeProjects
+screenshot: https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=1000&pause=1&color=DA31F7&background=000000&multiline=true&repeat=false&random=false&width=740&height=80&lines=WishFor
 links:
   - title: Website
     url: http://wish.akeyo.io
