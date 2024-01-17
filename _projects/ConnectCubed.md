@@ -25,8 +25,6 @@ accent_image:
 ConnectCubed is a work in progress, please open an issue on the repo if you would like to this project to receive more attention.
 
 See the site?
-
-
 Iframe Above?
 
 
