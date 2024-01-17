@@ -50,9 +50,9 @@ layout: base
     </p>
 
     {% assign embedded = project.embedded %}  
-    {% if embedded %}
+    {% if embedded and embedded.size > 0 %}
       <div class="lead aspect-ratio sixteen-nine">
-          <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+          <iframe src="{{ embedded }}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
       </div>
     {% else % }
       {% assign screenshot = project.screenshot | default:project.image %}
