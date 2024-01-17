@@ -57,6 +57,7 @@ layout: base
     {% endif %}
       
     {% assign screenshot = project.screenshot | default:project.image %}
+    {% unless project.hide_screenshot %}
       {% if screenshot %}
         <div class="lead aspect-ratio sixteen-nine">
           {% include_cached components/hy-img.html
@@ -69,7 +70,7 @@ layout: base
           %}
         </div>
       {% endif %}
-    
+    {% endunless %}
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
