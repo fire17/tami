@@ -52,11 +52,12 @@ layout: base
     {% assign embedded = project.embedded %}  
     {% if embedded and embedded.size > 0 %}
       <div class="lead aspect-ratio sixteen-nine">
-          <iframe src="{{ embedded }}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+          <iframe src="{{ embedded }}" width="90%" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
       </div>
-    {% else % }
-      {% assign screenshot = project.screenshot | default:project.image %}
-      {% if screenshot %}
+    {% endif %}
+      
+    {% assign screenshot = project.screenshot | default:project.image %}
+      {% if screenshot and embedded.size == 0 %}
         <div class="lead aspect-ratio sixteen-nine">
           {% include_cached components/hy-img.html
             img=screenshot
@@ -68,7 +69,6 @@ layout: base
           %}
         </div>
       {% endif %}
-    {% endif %}
     
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
