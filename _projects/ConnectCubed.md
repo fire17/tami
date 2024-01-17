@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'ConnectCubed'
+title: 'Connect³ Cubed'
 date: 17 Jan 2024
 image:  
   path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
@@ -11,12 +11,12 @@ links:
     url: http://ConnectCubed.akeyo.io
   - title: Github
     url: https://github.com/fire17/ConnectCubed
-caption: Made with 💚
-embedded_bottom: https://ConnectCubed.akeyo.io/
+caption: 3D Version of Connect4 💚
+embedded: https://ConnectCubed.akeyo.io/
 description: >
-    MagicLLight <br>
-    Give life to your llms<br>
-    <a href="http://ConnectCubed.akeyo.io" class="internal"><strong>MagicLLight.akeyo.io</strong></a>
+    Connect³ Cubed <br>
+    3D Version of Connect4<br>
+    <a href="http://ConnectCubed.akeyo.io" class="internal"><strong>ConnectCubed.akeyo.io</strong></a>
 accent_color: '#4fb1ba'
 accent_image:
   path: https://github.com/fire17/MagicLLight/blob/main/magicllight.png?raw=true
