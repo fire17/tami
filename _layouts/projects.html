@@ -1,8 +1,111 @@
 ---
 layout: page
 ---
-
+<div id="redis-status"></div>
+<button id="new-page-btn">New Page</button>
+<div id="upload-message"></div>
 {{ content }}
+
+
+<script>
+   document.addEventListener('DOMContentLoaded', async function() {
+    const redisStatus = document.getElementById('redis-status');
+    const newPageBtn = document.getElementById('new-page-btn');
+    const uploadMessage = document.getElementById('upload-message');
+
+    // Function to extract the secret from the URL
+    function getUpstashSecretFromUrl() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('secret') || '';
+    }
+
+    // Retrieve the Upstash secret from the URL
+    const upstashSecret = getUpstashSecretFromUrl();
+
+    if (!upstashSecret) {
+      redisStatus.innerHTML = '<div style="color: red;">Missing Upstash secret in the URL</div>';
+      return;
+    }
+
+    // Use the Upstash secret to initialize the client
+    const client = new Redis(`redis://default:${upstashSecret}@eu2-factual-amoeba-31708.upstash.io:31708`);
+
+    try {
+      await client.ping();
+      redisStatus.innerHTML = '<div style="color: purple;">Connected to Redis</div>';
+    } catch (error) {
+      console.error(error);
+      redisStatus.innerHTML = '<div style="color: red;">Disconnected from Redis</div>';
+    }
+
+    newPageBtn.addEventListener('click', async function() {
+      const fileInput = document.createElement('input');
+      fileInput.type = 'file';
+      fileInput.accept = '.md';
+
+      fileInput.addEventListener('change', async function(event) {
+        const file = event.target.files[0];
+        const filename = file.name;
+        const fileReader = new FileReader();
+
+        fileReader.onload = async function() {
+          const mdData = fileReader.result;
+          try {
+            await client.set(`projects/${filename}`, mdData);
+            await updateAllProjects();
+            uploadMessage.innerHTML = `Page ${filename} uploaded successfully.`;
+          } catch (error) {
+            console.error(error);
+            uploadMessage.innerHTML = 'Error uploading the page.';
+          }
+        };
+
+        fileReader.readAsText(file);
+      });
+
+      fileInput.click();
+    });
+
+    await updateAllProjects();
+
+     async function updateAllProjects() {
+      try {
+        const allProjects = await client.get('all_projects');
+        const projectsArray = JSON.parse(allProjects) || [];
+
+        // Fetch projects from Redis and add them to the projectsArray
+        for (const projectKey of projectsArray) {
+          const projectData = await client.get(projectKey);
+          const project = {
+            // Parse projectData as needed
+          };
+          orderedProjects.push(project);
+        }
+
+        // Sort the combined projects
+        orderedProjects.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        // Update the Jekyll layout
+        const projectsLayout = document.querySelector('.columns');
+        projectsLayout.innerHTML = ''; // Clear existing projects
+        for (const project of orderedProjects) {
+          const featured = page.featured || project.featured || page.big_project || project.big_project;
+          const columnClass = featured ? 'column-1' : 'column-1-2';
+          projectsLayout.innerHTML += `
+            <div class="column ${columnClass}">
+              {% include_cached pro/project-card.html project=project featured=featured %}
+            </div>
+          `;
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+
+  });
+</script>
+
 
 {% assign show_collection = page.show_collection | default:"projects" %}
 {% assign ordered_projects = site[show_collection] | sort:"date" | reverse %}
