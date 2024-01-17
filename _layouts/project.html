@@ -66,7 +66,22 @@ layout: base
   </header>
 
   {{ content }}
-  ^^^^^^^^^^^^^^^^^^^^^3333333333333333
+  
+  <br>
+  Sneak Peak
+    {% assign embedded = project.embedded %}
+    <div class="lead aspect-ratio sixteen-nine">
+      Check it out
+        <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+      {% if embedded %}
+        Check it out
+        <iframe src="{{ embedded }}" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+      {% endif %}
+
+      Check it hard
+        <iframe src="https://makereal.tldraw.link/zSr2dcOjWsDotu_BZPrHb" width="600" height="400" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+    </div>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 </article>
 
