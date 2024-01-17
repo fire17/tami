@@ -4,7 +4,7 @@ title: 'Wholesome Projects'
 date: 1 Jan 2021
 image:  
   path: /assets/img/danilator.png
-screenshot: /assets/img/danilator.png
+screenshot: https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&duration=3000&pause=1&color=DA31F7&background=000000&multiline=true&repeat=false&random=false&width=240&height=80&lines=WholesomeProjects
 links:
   - title: Website
     url: http://projects.akeyo.io
